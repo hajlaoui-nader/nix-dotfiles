@@ -15,6 +15,7 @@ defaultPkgs = with pkgs; [
     tree                  # display files in a tree view
     font-awesome          # awesome fonts
     material-design-icons # fonts with glyphs
+    exa                   # a better `ls`
   ];
 
 in
