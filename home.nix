@@ -49,8 +49,16 @@ in
       fileWidgetCommand = "fd --type file --follow"; # FZF_CTRL_T_COMMAND
     };
 
- jq.enable = true;
- ssh.enable = true;
+  htop = {
+    enable = true;
+    settings = {
+      sort_direction = true;
+      sort_key = "PERCENT_CPU";
+    };
+  };
+ 
+  jq.enable = true;
+  ssh.enable = true;
  };
 
 }
