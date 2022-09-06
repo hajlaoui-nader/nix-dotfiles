@@ -2,7 +2,7 @@
 
 
 let
-  username = "gvolpe";
+  username = "nhajlaoui";
   homeDirectory = "/home/${username}";
   configHome = "${homeDirectory}/.config";
 
@@ -22,7 +22,7 @@ in
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
-  imports = (import ./programs);
+  imports = (import ./programs) ++ [(import ./fonts)];
 
   home = {
     inherit username homeDirectory;
