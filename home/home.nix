@@ -52,7 +52,6 @@ in
 
  jq.enable = true;
  ssh.enable = true;
- zsh.enable = true;
  };
 
 }

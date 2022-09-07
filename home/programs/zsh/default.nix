@@ -13,7 +13,7 @@
     enableAutosuggestions = true;
     oh-my-zsh = {
       enable = true;
-      plugins = [ "git" "docker" "docker-compose" ];
+      plugins = [ "git" "docker" "docker-compose" "z" ];
     };
 
 
