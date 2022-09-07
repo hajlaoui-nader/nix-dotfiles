@@ -18,6 +18,12 @@ expects. The home-manager profile can then be built and activated:
 $ home-manager switch
 ```
 
+flake activation
+```shell
+nix build .#homeConfigurations.nhajlaoui.activationPackage
+result/activate
+```
+
 To update home-manager:
 
 ```shell

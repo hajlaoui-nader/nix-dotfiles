@@ -1,0 +1,5 @@
+[
+  ./git
+  ./neovim
+  ./zsh
+]
