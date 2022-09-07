@@ -15,6 +15,7 @@ let
 
 
   imports = [
+    neovim-flake.nixosModules.hm
     ../home/home.nix
   ];
 

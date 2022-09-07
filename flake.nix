@@ -9,7 +9,12 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+  neovim-flake = {
+    url = github:gvolpe/neovim-flake;
+    inputs.nixpkgs.follows = "nixpkgs";
   };
+
+};
 
   outputs = inputs @ { self, nixpkgs, ... }:
     let
