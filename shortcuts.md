@@ -245,7 +245,19 @@ Leader Key is Space
  - `I` - Add file under cursor
  - `CC` - Commit changes or move to commit mode.
 
+## Scala
+- `K` - Show documentation
+- `<leader>lgd` - Go to definition
+- `<leader>lh` - Show type
+- `<leader>ln` - Rename 
+- `<leader>lgp` - Go to previous error
+- `<leader>lgn` - Go to next Error 
+- `<leader>ac` - Code action
+- `<leader>lr` - Find references
+- `<leader>lwd` - Workspace diagnostic
+- `<leader>xq` - Quick fix
+
+
 
  ? How to do snippets
-
 
