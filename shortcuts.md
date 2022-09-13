@@ -142,13 +142,8 @@ Leader Key is Space
  - `:ccl` - Close list of all matches
 
 # Tabs
- - `:tabnew [file]` - Open file in new tab
- - `Ctrl + wT` - Move current split window into its own tab
- - `gt` - Go to next tab
- - `gT` - Go to prev tab
- - `#gt` - Go to tab number
- - `:tabc` - Close current tab
- - `:tabo` - Close other tabs but this one.
+ - `<leader>bn` - next tab
+ - `<leader>bp` - previous tab
 
 # Buffers
  - `:e file` - Edit file in a new buffer
@@ -259,5 +254,29 @@ Leader Key is Space
 - `<C-space>` - Trigger code completion
 - `<C-e>` - Close code completion tab
 
- ? How to do snippets
+##  Telescope
+- `<leader>ff` - "<cmd> Telescope find_files<CR>"
+- `<leader>fg` - "<cmd> Telescope live_grep<CR>"
+- `<leader>fb` - "<cmd> Telescope buffers<CR>"
+- `<leader>fh` - "<cmd> Telescope help_tags<CR>"
+- `<leader>ft` - "<cmd> Telescope<CR>"
+- `<leader>fvcw` - "<cmd> Telescope git_commits<CR>"
+- `<leader>fvcb` - "<cmd> Telescope git_bcommits<CR>"
+- `<leader>fvb` - "<cmd> Telescope git_branches<CR>"
+- `<leader>fvs` - "<cmd> Telescope git_status<CR>"
+- `<leader>fvx` - "<cmd> Telescope git_stash<CR>"
+- `<leader>flsb` - "<cmd> Telescope lsp_document_symbols<CR>"
+- `<leader>flsw` - "<cmd> Telescope lsp_workspace_symbols<CR>"
+- `<leader>flr` - "<cmd> Telescope lsp_references<CR>"
+- `<leader>fli` - "<cmd> Telescope lsp_implementations<CR>"
+- `<leader>flD` - "<cmd> Telescope lsp_definitions<CR>"
+- `<leader>flt` - "<cmd> Telescope lsp_type_definitions<CR>"
+- `<leader>fld` - "<cmd> Telescope diagnostics<CR>"
+- `<leader>fs` - "<cmd> Telescope treesitter<CR>"
+
+
+## Markdown
+- `<leader>p>` - Glow
+
+? How to do snippets
 
