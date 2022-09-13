@@ -256,8 +256,8 @@ Leader Key is Space
 - `<leader>lr` - Find references
 - `<leader>lwd` - Workspace diagnostic
 - `<leader>xq` - Quick fix
-
-
+- `<C-space>` - Trigger code completion
+- `<C-e>` - Close code completion tab
 
  ? How to do snippets
 
