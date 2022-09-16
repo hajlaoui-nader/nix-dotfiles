@@ -40,6 +40,9 @@ unpacking channels...
 $ home-manager switch
 ```
 
+## TODO
+uncomment `programs`
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT).
