@@ -18,6 +18,7 @@ defaultPkgs = with pkgs; [
     exa                   # a better `ls`
     bottom                # a better `top`
     tree-sitter           # syntax highlighting
+    fd                    # a better `find`
   ];
 
 in
