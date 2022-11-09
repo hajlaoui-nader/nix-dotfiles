@@ -16,6 +16,7 @@ defaultPkgs = with pkgs; [
     font-awesome          # awesome fonts
     material-design-icons # fonts with glyphs
     exa                   # a better `ls`
+    bottom                # a better `top`
   ];
 
 in
