@@ -10,7 +10,7 @@
     };
 
   neovim-flake = {
-    url = github:gvolpe/neovim-flake;
+    url = github:hajlaoui-nader/neovim-flake;
     inputs.nixpkgs.follows = "nixpkgs";
   };
 
