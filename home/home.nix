@@ -17,6 +17,7 @@ defaultPkgs = with pkgs; [
     material-design-icons # fonts with glyphs
     exa                   # a better `ls`
     bottom                # a better `top`
+    tree-sitter           # syntax highlighting
   ];
 
 in
