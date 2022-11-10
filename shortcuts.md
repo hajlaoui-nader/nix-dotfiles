@@ -278,7 +278,7 @@ Leader Key is Space
 - `<leader>fs` - Telescope treesitter
 
 ## code
-- `<leader>fs` - Telescope treesitter
+- `<leader>d` - metals commands
 ## Markdown
 - `<leader>p>` - Glow
 
