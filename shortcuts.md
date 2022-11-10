@@ -144,6 +144,9 @@ Leader Key is Space
 # Tabs
  - `<leader>bn` - next tab
  - `<leader>bp` - previous tab
+ - `<alt>=` - equalize all tabs
+ - `<alt>>` - increase tab size
+ - `<alt><` - decrease tab size
 
 # Buffers
  - `:e file` - Edit file in a new buffer
@@ -255,26 +258,27 @@ Leader Key is Space
 - `<C-e>` - Close code completion tab
 
 ##  Telescope
-- `<leader>ff` - "<cmd> Telescope find_files<CR>"
-- `<leader>fg` - "<cmd> Telescope live_grep<CR>"
-- `<leader>fb` - "<cmd> Telescope buffers<CR>"
-- `<leader>fh` - "<cmd> Telescope help_tags<CR>"
-- `<leader>ft` - "<cmd> Telescope<CR>"
-- `<leader>fvcw` - "<cmd> Telescope git_commits<CR>"
-- `<leader>fvcb` - "<cmd> Telescope git_bcommits<CR>"
-- `<leader>fvb` - "<cmd> Telescope git_branches<CR>"
-- `<leader>fvs` - "<cmd> Telescope git_status<CR>"
-- `<leader>fvx` - "<cmd> Telescope git_stash<CR>"
-- `<leader>flsb` - "<cmd> Telescope lsp_document_symbols<CR>"
-- `<leader>flsw` - "<cmd> Telescope lsp_workspace_symbols<CR>"
-- `<leader>flr` - "<cmd> Telescope lsp_references<CR>"
-- `<leader>fli` - "<cmd> Telescope lsp_implementations<CR>"
-- `<leader>flD` - "<cmd> Telescope lsp_definitions<CR>"
-- `<leader>flt` - "<cmd> Telescope lsp_type_definitions<CR>"
-- `<leader>fld` - "<cmd> Telescope diagnostics<CR>"
-- `<leader>fs` - "<cmd> Telescope treesitter<CR>"
+- `<leader>ff` - Telescope find_files
+- `<leader>fg` - Telescope live_grep
+- `<leader>fb` - Telescope buffers
+- `<leader>fh` - Telescope help_tags
+- `<leader>ft` - Telescope
+- `<leader>fvcw` - Telescope git_commits
+- `<leader>fvcb` - Telescope git_bcommits
+- `<leader>fvb` - Telescope git_branches
+- `<leader>fvs` - Telescope git_status
+- `<leader>fvx` - Telescope git_stash
+- `<leader>flsb` - Telescope lsp_document_symbols
+- `<leader>flsw` - Telescope lsp_workspace_symbols
+- `<leader>flr` - Telescope lsp_references
+- `<leader>fli` - Telescope lsp_implementations
+- `<leader>flD` - Telescope lsp_definitions
+- `<leader>flt` - Telescope lsp_type_definitions
+- `<leader>fld` - Telescope diagnostics
+- `<leader>fs` - Telescope treesitter
 
-
+## code
+- `<leader>fs` - Telescope treesitter
 ## Markdown
 - `<leader>p>` - Glow
 
