@@ -380,11 +380,11 @@
         "which-key": "which-key"
       },
       "locked": {
-        "lastModified": 1668097141,
-        "narHash": "sha256-DhTnSTZiTBP3XNxKQcIRT4O6kIQsXLlBmpUWY8BkEr4=",
+        "lastModified": 1668099389,
+        "narHash": "sha256-vMMyVvWpjwzz3V7KY7QebJaHJEBXSdcR9P1br8zjDdk=",
         "owner": "hajlaoui-nader",
         "repo": "neovim-flake",
-        "rev": "d2723321330b02689b91c9d7a7952bddf0e56fe9",
+        "rev": "3219943cf2108a82080baa885264fef89af7be09",
         "type": "github"
       },
       "original": {
