@@ -1,7 +1,7 @@
 {
   username = "nhajlaoui";
   homedir = "/home/${username}";
-  hostname = "nh";
-  shell-name = "nh";
+  hostname = "nhajloui";
+  shell-name = "nhajlaoui";
   system = "x86_64-linux";
 }

@@ -18,9 +18,9 @@ expects. The home-manager profile can then be built and activated:
 $ home-manager switch
 ```
 
-flake activation
+flake activation on linux
 ```shell
-nix build .#homeConfigurations.nhajlaoui.activationPackage
+nix build .#homeConfigurations.linux.activationPackage
 result/activate
 ```
 

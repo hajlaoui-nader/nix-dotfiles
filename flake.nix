@@ -21,6 +21,18 @@
       system = "x86_64-linux";
     in
     {
+      linux = (
+        import ./outputs/home-conf.nix {
+          inherit inputs system;
+        }
+      );
+
+      mac = (
+        import ./outputs/home-conf.nix {
+          inherit inputs system;
+        }
+      );
+
       homeConfigurations = (
         import ./outputs/home-conf.nix {
           inherit inputs system;

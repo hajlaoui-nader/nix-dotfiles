@@ -59,12 +59,12 @@ in
         };
         statusline.lualine = {
           enable = true;
-          theme = "onedark";
+          theme = "catppuccin";
         };
         theme = {
           enable = true;
-          name = "onedark";
-          style = "deep";
+          name = "catppuccin";
+          style = "macchiato";
           transparency = true;
         };
         autopairs.enable = true;

@@ -15,6 +15,7 @@ let
 
 
   imports = [
+    # needed for neovim flake
     neovim-flake.nixosModules.hm
     ../home/home.nix
   ];
@@ -27,5 +28,5 @@ let
   );  
 in
   {
- nhajlaoui = mkHome ;
+ linux = mkHome ;
 }
