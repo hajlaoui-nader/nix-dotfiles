@@ -279,6 +279,12 @@ Leader Key is Space
 
 ## code
 - `<leader>d` - metals commands
+
+## copilot 
+- `<ctrl>j` - Accept proposition
+- `<ctrl>{` - Previous proposition
+- `<ctrl>}` - Next proposition
+
 ## Markdown
 - `<leader>p>` - Glow
 
